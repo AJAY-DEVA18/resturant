@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    background-image: url(/images/bg\ final.avif);
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+    
+}
+
+h1{
+    color:aliceblue;
+    margin-left:80px; 
+    margin-top:150px ;
+    font-size:50px;
+}
+h3{
+    color: rgb(236, 169, 0);
+    margin-left: 300px;
+    font-size: 30px;
+    
+  
+   
+}
+
+q{
+    color: aliceblue;
+    margin-left: 180px;
+}
+
+.nav{
+   /* margin-left: 400px;
+    margin-top: 30px;*/
+    color: rgb(226, 166, 12);
+    position:relative;
+    left:400px;
+    width: 100%;
+    top:0;
+    display: flex;
+}
+.nav a{
+    color: goldenrod;
+    padding:14px 16px;
+    text-decoration: none;
+}
+.nav a:hover{
+    color:antiquewhite;
+
+}
+#add{
+    color:aliceblue;
+    margin-left: 10px     ; 
+    font-size: 20px; 
+    position:absolute;
+    bottom:30px; 
+    
+}
+#about{
+    background-image: url(/images/wepik-export-20240327012614Kn7n.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h2{
+    color:aliceblue;
+    margin-left: 420px;
+    margin-top: 80px;
+    display: static;
+    font-size:xx-large;
+}
+p{
+    color: aliceblue;
+    margin-left: 220px;
+    font-size: 20px;
+    margin-top: 50px;
+    
+}
+#ad{
+    color:aliceblue;
+    margin-left: 10px; 
+    margin-top:70px ;
+    font-size: 20px; 
+    
+}
+
+.contact{
+    background-image:url(/images/rustic-wooden-planks-with-blackboard-background.jpg);
+    background-size: cover;
+    background-repeat:no-repeat 
+   
+} 
+#img{
+    position: absolute;
+    top:0px;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 20px;
+}
+#chef{
+    position:absolute;
+    left:25%;
+}
+.ab p{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    position: relative;
+    top:60px;
+    background-color: aqa;
+}
+.ab h2
+{
+    position: relative;
+    top:80px
+}
+/*
+#nav{
+
+    position: absolute;
+    left:40%;
+    bottom:5%
+
+}
+*/
+address{
+    position:relative;
+    bottom: 20%;
+    left:50%;
+    color:whitesmoke;
+    
+
+}
+#cheff{
+    position:relative;
+    top:39px;
+    left:55%
+}
+#menu{
+    background-image: url(/images/grey-bg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.menu{
+    display:flex;
+    direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    justify-content: space-around;
+    flex-basis: 50%;
+
+    
+}
+.menu img{
+   
+    width:220px;
+    height:180px;
+    margin:2px
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+    box-shadow: inset;
+}
+.menu div{
+position:relative;
+top:60px;
+}
+#h5{
+    color:white; 
+      margin-top: 90px;
+      margin-left: 26%;
+}
+.nave{
+    /* margin-left: 400px;
+     margin-top: 30px;*/
+     color: rgb(226, 166, 12);
+     position:relative;
+     left:800px;
+     width: 100%;
+     top:0;
+     display: flex;
+ }
+ .nave a{
+    color: goldenrod;
+    padding:14px 16px;
+    text-decoration: none;
+}
+.nave a:hover{
+    color:antiquewhite;
+
+}
+.menu img:hover{
+    transform: scale(1.08);
+
+}
+#container{
+
+    display:grid;
+}
+
